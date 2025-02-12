@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Welcome to javaScript</h1>
+    <script>
+        // Question1
+        function sayHello(){
+            console.log("Hello World!")
+        }
+        sayHello()
+        // Question2
+        function displayWarning(){
+            console.log("Warning! System Overload")
+        }
+        displayWarning()
+        function printstatus(){
+            console.log("System Status: Active")
+        }
+        // Question3
+        printstatus()
+        function Fun1(){
+            console.log("Initialization Complete")
+            Fun2()
+
+        }
+        function Fun2(){
+            console.log("System shutting Down")
+        }
+        Fun1()
+        function process1(){
+            console.log("Process Startd")
+            process2()
+        }
+        function process2(){
+            console.log("Process Ended")
+        }
+        process1()
+        // Question 6
+        function greetUser(Name){
+            console.log("Hello",Name)
+        }
+        greetUser("Somanadh")
+        // Question 7
+        function calculateSum(a, b){
+            console.log(a+b);
+        }
+        calculateSum(2, 6)
+        // Question8
+        function countDown(){
+            for(var i =5; i>=1;i--){
+                console.log(i)
+            }
+        }
+        countDown()
+        // Question 9
+        function checkEvenOdd(i){
+            if( i%2 == 0){
+                console.log("even");
+            }
+            else{
+                console.log("Odd")
+            }
+        }
+        checkEvenOdd(25)
+        // Question 10
+        function beginSession(){
+            console.log("Session Started")
+            endSession()
+        }
+        function endSession(){
+            console.log("Session Ended")
+        }
+        beginSession()
+    </script>
+</body>
+</html>
